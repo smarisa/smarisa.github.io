@@ -1,0 +1,35 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$spacing-unit:     30px;
+
+$bg-clr:                #fdfdfd;
+$fg-clr:                #111111;
+$fg-clr-l:              lighten($fg-clr, 15%);
+$fg-clr-ll:             lighten($fg-clr, 30%);
+$hl-clr:                #2a7ae2;
+$hl-clr-d:              darken($hl-clr, 15%);
+$hl-clr-dd:             darken($hl-clr, 30%);
+$hl-clr-l:              lighten($hl-clr, 15%);
+$hl-clr-ll:             lighten($hl-clr, 30%);
+$hl-clr-lll:            lighten($hl-clr, 40%);
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$content-width:    900px; // Width of the content area
+$phonesw:          600px; // 768px
+$laptopsw:         1100px;
+
+@mixin swatmost($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "base", "syntax-highlighting";
