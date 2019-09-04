@@ -1,18 +1,24 @@
 # Site settings
 title: Samuel Sydänlammi
-email: fn.ln@gmail.com
+email: fn.ln @ iki.fi
 description: >
   This is my minimalist personal website created in 2019 and generously hosted by GitHub.
 baseurl: ""
 url: "http://sjjsy.github.io" # the base hostname & protocol for your site
-github_username:  sjjsy
+github_username: sjjsy
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+header_pages:
+  - about.md
+  - now.md
+#parse_block_html: true  # https://github.community/t5/GitHub-Pages/Collapsible-markdown-inside-lt-details-gt-lt-summary-gt-lt/td-p/13786
 
+# ADD FAVICON: https://github.com/jekyll/minima/blob/master/README.md#add-your-favicons
+  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

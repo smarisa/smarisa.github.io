@@ -1,0 +1,21 @@
+/*.site-title {
+    font-size: 20px;
+}*/
+dt {
+    font-weight: bold;
+}
+dd {
+    margin-left: 1em;
+    margin-bottom: 0.2em;
+}
+#markdown-toc::before {
+    /* Source: https://ouyi.github.io/post/2017/12/31/jekyll-table-of-contents.html */
+    content: "Contents";
+    margin-left: -$spacing-unit;
+    line-height: 200%;
+    font-weight: bold;
+    @include relative-font-size(1.25);
+    @include media-query($on-laptop) {
+        @include relative-font-size(1.125);
+    }
+}

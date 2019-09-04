@@ -1,0 +1,83 @@
+
+
+
+
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="c55726d8-8771-4e9c-9fb4-387fe39f6a75" data-root-id="1366"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1543">
+          {"2516f63e-1ef4-46b8-8364-a2562860a635":{"roots":{"references":[{"attributes":{"dimension":1,"ticker":{"id":"1380","type":"CategoricalTicker"}},"id":"1382","type":"Grid"},{"attributes":{},"id":"1395","type":"CategoricalTickFormatter"},{"attributes":{"source":{"id":"1363","type":"ColumnDataSource"}},"id":"1389","type":"CDSView"},{"attributes":{"axis_label":"Time use (hours)","formatter":{"id":"1393","type":"BasicTickFormatter"},"ticker":{"id":"1375","type":"BasicTicker"}},"id":"1374","type":"LinearAxis"},{"attributes":{},"id":"1396","type":"Selection"},{"attributes":{},"id":"1380","type":"CategoricalTicker"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"right":{"field":"tdu"},"y":{"field":"lbl"}},"id":"1387","type":"HBar"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1364","type":"HoverTool"}]},"id":"1383","type":"Toolbar"},{"attributes":{"callback":null,"factors":["(other)","analyze","review","feedback","plan","diaries","coord","coach","grading","meeting"]},"id":"1365","type":"FactorRange"},{"attributes":{"data_source":{"id":"1363","type":"ColumnDataSource"},"glyph":{"id":"1386","type":"HBar"},"hover_glyph":null,"muted_glyph":null,"name":"b1","nonselection_glyph":{"id":"1387","type":"HBar"},"selection_glyph":null,"view":{"id":"1389","type":"CDSView"}},"id":"1388","type":"GlyphRenderer"},{"attributes":{"below":[{"id":"1374","type":"LinearAxis"}],"center":[{"id":"1378","type":"Grid"},{"id":"1382","type":"Grid"}],"left":[{"id":"1379","type":"CategoricalAxis"}],"plot_height":240,"plot_width":740,"renderers":[{"id":"1388","type":"GlyphRenderer"}],"title":{"id":"1390","type":"Title"},"toolbar":{"id":"1383","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"1367","type":"DataRange1d"},"x_scale":{"id":"1370","type":"LinearScale"},"y_range":{"id":"1365","type":"FactorRange"},"y_scale":{"id":"1372","type":"CategoricalScale"}},"id":"1366","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1397","type":"UnionRenderers"},{"attributes":{"callback":null},"id":"1367","type":"DataRange1d"},{"attributes":{"axis_label":"Activity","formatter":{"id":"1395","type":"CategoricalTickFormatter"},"group_label_orientation":0.7,"group_text_baseline":"top","major_label_orientation":0,"major_label_text_align":"right","separator_line_width":{"value":0},"ticker":{"id":"1380","type":"CategoricalTicker"}},"id":"1379","type":"CategoricalAxis"},{"attributes":{},"id":"1370","type":"LinearScale"},{"attributes":{"text":""},"id":"1390","type":"Title"},{"attributes":{},"id":"1393","type":"BasicTickFormatter"},{"attributes":{},"id":"1372","type":"CategoricalScale"},{"attributes":{"callback":null,"mode":"hline","names":["b1"],"tooltips":[["activity","@lbl"],["time use","@tdu{0.0}"]]},"id":"1364","type":"HoverTool"},{"attributes":{},"id":"1375","type":"BasicTicker"},{"attributes":{"fill_alpha":{"value":0.8},"fill_color":{"value":"#1f77b4"},"height":{"value":0.8},"line_color":{"value":"#1f77b4"},"right":{"field":"tdu"},"y":{"field":"lbl"}},"id":"1386","type":"HBar"},{"attributes":{"ticker":{"id":"1375","type":"BasicTicker"}},"id":"1378","type":"Grid"},{"attributes":{"callback":null,"data":{"lbl":["(other)","analyze","review","feedback","plan","diaries","coord","coach","grading","meeting"],"tdu":{"__ndarray__":"5DiO4ziOIUCissPU5fYKQHE9Ctej8BBAZmZmZmbmFkCQobLD1OUcQHP7gwyV3SNAhetRuB6VNECCThvotFE3QE8b6LSB3jlAdNpApw28SUA=","dtype":"float64","shape":[10]}},"selected":{"id":"1396","type":"Selection"},"selection_policy":{"id":"1397","type":"UnionRenderers"}},"id":"1363","type":"ColumnDataSource"}],"root_ids":["1366"]},"title":"Bokeh Application","version":"1.3.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1543').textContent;
+                  var render_items = [{"docid":"2516f63e-1ef4-46b8-8364-a2562860a635","roots":{"1366":"c55726d8-8771-4e9c-9fb4-387fe39f6a75"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

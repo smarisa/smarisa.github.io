@@ -1,9 +1,11 @@
 ---
 layout: post
+categories: post
 title:  "Foundations for personal website and blog laid"
 date:   2019-02-11 17:24:59 +0200
-categories: website blog online achievements
+tags: website blog online achievements
 ---
+
 Today, I scrapped my old website exercise draft and replaced it with minimal
 foundations of my personal website.
 

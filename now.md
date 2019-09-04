@@ -4,36 +4,37 @@ title: Now
 permalink: /now/
 ---
 
-(This is a [now page][nowabout].)
-
-I have defined five principal values for myself and I try to ensure my 
-attention is somewhat balanced over each of them which is why I like to
-structure my goals around them:
+This [now page][nowabout] presents my current goals structured around the five 
+principal values that I have defined for myself a long time ago:
 
 <table>
   <tr>
-    <th>Value</th>
-    <th>Goals that are currently consuming my time</th>
+    <th>Value</th> <th>Goals that are currently consuming my time</th>
   </tr>
   <tr>
-    <td>Integrity</td>
-    <td>Figure out who I am and want to be, from a career planning point of view; Improving my time use analysis software.</td>
+    <td>Integrity</td> <td>Figure out what firm, role and community would let 
+    me grow and develop my skills, networks and know-how such that I am later 
+    best able to do the kind of service that I want to do.</td>
   </tr>
   <tr>
-    <td>Love</td>
-    <td>Reconnect with some of my friends that I have barely talked to during the past 5 years.</td>
+    <td>Love</td> <td>Progress with the goals that I share with my wife; 
+    Reconnect with some of my friends that I have barely talked to during the 
+    past 5 years.</td>
   </tr>
   <tr>
-    <td>Liberty</td>
-    <td>Establish a personal website.</td>
+    <td>Liberty</td> <td>Freely explore my professional interests and skills 
+    more broadly.</td>
   </tr>
   <tr>
-    <td>Cultivation</td>
-    <td>Broaden my skills in machine learning; Finish my business strategy related thesis; Graduate from Aalto.</td>
+    <td>Cultivation</td> <td>Kickstart my career as a full-time professional 
+    and expert, cultivating the skills that I need in the work; Advance as a 
+    West Coast Swing dancer such as to gain at least 7 WSDC registry points by 
+    the end of Summer 2020.</td>
   </tr>
   <tr>
-    <td>Service</td>
-    <td>Transition from part-time to full-time employment according to my career plans.</td>
+    <td>Service</td> <td>Kickstart my career as a full-time professional and 
+    expert that is able to help colleagues and clients at important and 
+    challenging problems.</td>
   </tr>
 </table>
 
