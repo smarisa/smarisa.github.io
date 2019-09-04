@@ -89,6 +89,12 @@ following include reasons to support this conclusion:
 - I was eager to receive feedback, learn and improve my performance.
 - I took care of my work quickly to avoid time constraints.
 
+I also received direct positive feedback from my superior. Professor Kauranen 
+frequently praised my work. Most clearly I remember his praise for my capacity 
+for abstract and synthesizing thinking after I had provided him somewhat major 
+additions to the course brochure, especially its sections concerning the 
+teaching and grading principles and philosophy applied in the course.
+
 It must be noted that the experience was positive not only because of my 
 success in the role but also because I was able to gain many important 
 insights also from areas outside the practical work assignments that I carried 
